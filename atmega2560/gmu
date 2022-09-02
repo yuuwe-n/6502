@@ -1,0 +1,5 @@
+#!/bin/sh
+
+gmake upload 
+
+minicom -D /dev/ttyU0

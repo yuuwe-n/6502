@@ -23,3 +23,9 @@ can view available options of avrdude flags using ?
 > make user part of dialer group for perms or use doas
 
 gmake upload
+
+# minicom
+
+```
+minicom -D /dev/ttyU0
+```
