@@ -1,5 +1,10 @@
 #!/bin/sh
 
-gmake upload 
+gmake upload  
 
-minicom -D /dev/ttyU0
+if [ $? -eq 0 ]; then
+	minicom -D /dev/ttyU0
+else
+	echo $?
+fi
+
