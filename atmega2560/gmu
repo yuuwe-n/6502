@@ -3,7 +3,7 @@
 gmake upload  
 
 if [ $? -eq 0 ]; then
-	minicom -D /dev/ttyU0
+	minicom -D /dev/ttyU0 -b 115200
 else
 	echo $?
 fi

@@ -39,7 +39,7 @@ void setup() {
 
 	attachInterrupt(digitalPinToInterrupt(CLOCK), onClock, RISING);
 
-	Serial.begin(9600);
+	Serial.begin(115200);
 }
 
 
