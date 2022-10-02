@@ -1,0 +1,3 @@
+#!/bin/sh
+
+vasm6502_oldstyle -Fbin blink.s

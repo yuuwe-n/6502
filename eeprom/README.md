@@ -17,3 +17,11 @@ https://gitlab.com/DavidGriffith/minipro/
 ## dependencies
 pkg-config
 libusb
+
+# assembler
+
+[vasm](http://sun.hasenbraten.de/vasm/index.php?view=main)
+
+```
+make CPU=6502 SYNTAX=oldstyle
+```

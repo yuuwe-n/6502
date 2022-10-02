@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./makerom.py
+hexdump -C rom.bin
